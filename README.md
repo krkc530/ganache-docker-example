@@ -7,7 +7,7 @@
 ## Getting Started
 
 ```
-git clone https://github.com/ft-jasong/ganache-docker-example.git
+git clone https://github.com/krkc530/ganache-docker-example.git
 cd ganache-docker-example
 ```
 
@@ -17,8 +17,6 @@ cd ganache-docker-example
 docker build --build-arg \
 NODE_VERSION=<NODE_VERSION> \
 GANACHE_VERSION=<GANACHE_VERSION> \
-PRIV_KEY=<PRIVATE_KEY> \
-INIT_WEI=<INIT_WEI> \
 -t <IMAGE_NAME:TAG> .
 ```
 
